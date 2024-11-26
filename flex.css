@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+}
+
+.outershell{
+    border: 2px solid rgb(215, 14, 81);
+   padding: 5px;
+   
+    
+}
+.border1{
+    border: 2px solid rgb(108, 160, 5) ;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+   
+}
+.box11,.box12,.box13,.box14{
+    border: 2px solid red;
+}
+
+.border2{
+    border: 2px solid rgb(200, 134, 10);
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.box21,.box22,.box23{
+    border: 2px solid green;
+    
+}
+/* .box22{
+    flex-grow: 1;
+    
+} */
+.border3{
+    border: 2px solid blue;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+.box31,.box32,.box33,.box34{
+    border: 2px solid violet;
+    
+}
+.border1,.border2{
+    margin-bottom: 5px;
+        
+}
+img{
+    height: 150px;
+    /* width: 150px; */
+    
+    
+}
