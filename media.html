@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            border: 2px solid red;
+            height: 150px;
+            width: 150px;
+        }
+        @media screen and (min-width:0px) and (max-width:320px) {
+            .box1{
+                background-color: green;
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Virat_Kohli_in_PMO_New_Delhi.jpg/330px-Virat_Kohli_in_PMO_New_Delhi.jpg);
+                background-size: cover;
+            }
+        }
+        @media screen and (min-width:321px) and (max-width:375px) {
+            .box1{
+                background-color: aqua;
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Bhuvneshwar_kumar_With_Rashid_Zirak_%28Bhuvneshwar_Kumar_cropped%29.jpg/330px-Bhuvneshwar_kumar_With_Rashid_Zirak_%28Bhuvneshwar_Kumar_cropped%29.jpg);
+                background-size: cover;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Media queries and  the div with different background images in different devices
+    </h1>
+    <div class="box1"></div>
+</body>
+</html>
