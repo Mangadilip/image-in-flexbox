@@ -13,8 +13,9 @@ h1{
     padding: 5px;
     display: flex;
     gap: 10px;
-    justify-content:center;
+    justify-content:space-evenly;
     flex-wrap: wrap;
+
     
    
 }
@@ -28,7 +29,7 @@ h1{
     gap: 10px;
     padding: 5px;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
 
 
 }
@@ -36,16 +37,16 @@ h1{
     border: 2px solid green;
     
 }
-/* .box22{
+.box22{
     flex-grow: 1;
     
-} */
+}
 .border3{
     border: 2px solid blue;
     padding: 5px;
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 } 
 .box31,.box32,.box33,.box34{
